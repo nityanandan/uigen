@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /d \"D:\\\\Work and Study\\\\Claude\\\\Claude Code\\\\uigen\")",
+      "Bash(npm test *)"
+    ]
+  }
+}
