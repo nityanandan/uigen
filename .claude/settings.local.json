@@ -1,8 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cd /d \"D:\\\\Work and Study\\\\Claude\\\\Claude Code\\\\uigen\")",
-      "Bash(npm test *)"
-    ]
+      "mcp__playwright",
+      "Skill(run)",
+      "Bash(npm run *)"
+    ],
+    "deny": []
   }
 }

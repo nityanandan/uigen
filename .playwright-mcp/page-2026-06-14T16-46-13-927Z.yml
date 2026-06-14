@@ -1,0 +1,174 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a beautiful hero section with a headline, description, and call-to-action button
+            - img [ref=e57]
+          - generic [ref=e75]:
+            - img [ref=e78]
+            - generic [ref=e83]:
+              - paragraph [ref=e85]: This is a static response. You can place an Anthropic API key in the .env file to use the Anthropic API for component generation. Let me create an App.jsx file to display the component.
+              - generic [ref=e88]: Creating /App.jsx
+              - separator [ref=e89]
+              - paragraph [ref=e91]: I'll create a Counter component for you.
+              - generic [ref=e94]: Creating /components/Counter.jsx
+              - separator [ref=e95]
+              - paragraph [ref=e97]: Now let me enhance the component with better styling.
+              - generic [ref=e100]: Editing /components/Counter.jsx
+              - separator [ref=e101]
+              - generic [ref=e102]:
+                - paragraph [ref=e103]: "Perfect! I've created:"
+                - list [ref=e104]:
+                  - listitem [ref=e105]:
+                    - strong [ref=e106]: Counter.jsx
+                    - text: "- A fully-featured counter component"
+                  - listitem [ref=e107]:
+                    - strong [ref=e108]: App.jsx
+                    - text: "- The main app file that displays the component"
+                - paragraph [ref=e114]: The component is now ready to use. You can see the preview on the right side of the screen.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e115]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123] [cursor=pointer]:
+              - img [ref=e124]
+              - img [ref=e126]
+              - generic [ref=e128]: components
+            - generic [ref=e131] [cursor=pointer]:
+              - img [ref=e132]
+              - generic [ref=e137]: Counter.jsx
+          - generic [ref=e139] [cursor=pointer]:
+            - img [ref=e140]
+            - generic [ref=e145]: App.jsx
+        - separator [ref=e146]
+        - code [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]:
+              - generic [ref=e237]: "1"
+              - generic [ref=e159]: "2"
+              - generic [ref=e238]:
+                - generic [ref=e239] [cursor=pointer]: 
+                - generic [ref=e240]: "3"
+              - generic [ref=e242]: "4"
+              - generic [ref=e244]: "5"
+              - generic [ref=e245]:
+                - generic [ref=e246] [cursor=pointer]: 
+                - generic [ref=e247]: "6"
+              - generic [ref=e173]: "7"
+              - generic [ref=e175]: "8"
+              - generic [ref=e177]: "9"
+              - generic [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]: 
+                - generic [ref=e250]: "10"
+              - generic [ref=e181]: "11"
+              - generic [ref=e252]: "12"
+              - generic [ref=e254]: "13"
+              - generic [ref=e255]:
+                - generic [ref=e256] [cursor=pointer]: 
+                - generic [ref=e257]: "14"
+              - generic [ref=e259]: "15"
+              - generic [ref=e261]: "16"
+              - generic [ref=e263]: "17"
+              - generic [ref=e264]:
+                - generic [ref=e265] [cursor=pointer]: 
+                - generic [ref=e266]: "18"
+              - generic [ref=e267]:
+                - generic [ref=e268] [cursor=pointer]: 
+                - generic [ref=e269]: "19"
+              - generic [ref=e271]: "20"
+              - generic [ref=e273]: "21"
+              - generic [ref=e274]:
+                - generic [ref=e275] [cursor=pointer]: 
+                - generic [ref=e276]: "22"
+              - generic [ref=e277]:
+                - generic [ref=e278] [cursor=pointer]: 
+                - generic [ref=e279]: "23"
+              - generic [ref=e281]: "24"
+              - generic [ref=e283]: "25"
+              - generic [ref=e284]:
+                - generic [ref=e285] [cursor=pointer]: 
+                - generic [ref=e286]: "26"
+              - generic [ref=e288]: "27"
+              - generic [ref=e290]: "28"
+              - generic [ref=e291]:
+                - generic [ref=e292] [cursor=pointer]: 
+                - generic [ref=e293]: "29"
+              - generic [ref=e295]: "30"
+              - generic [ref=e297]: "31"
+              - generic [ref=e298]:
+                - generic [ref=e299] [cursor=pointer]: 
+                - generic [ref=e300]: "32"
+              - generic [ref=e302]: "33"
+              - generic [ref=e304]: "34"
+              - generic [ref=e305]:
+                - generic [ref=e306] [cursor=pointer]: 
+                - generic [ref=e307]: "35"
+              - generic [ref=e309]: "36"
+              - generic [ref=e311]: "37"
+              - generic [ref=e312]:
+                - generic [ref=e313] [cursor=pointer]: 
+                - generic [ref=e314]: "38"
+              - generic [ref=e316]: "39"
+              - generic [ref=e318]: "40"
+              - generic [ref=e320]: "41"
+              - generic [ref=e322]: "42"
+              - generic [ref=e324]: "43"
+            - generic [ref=e211]:
+              - generic [ref=e479]: "import { useState } from 'react';"
+              - generic [ref=e481]: "const Counter = () => {"
+              - generic [ref=e483]: const [count, setCount] = useState(0);
+              - generic [ref=e486]: "const increment = () => {"
+              - generic [ref=e488]: setCount(count + 1);
+              - generic [ref=e490]: "};"
+              - generic [ref=e493]: "const decrement = () => {"
+              - generic [ref=e495]: setCount(count - 1);
+              - generic [ref=e497]: "};"
+              - generic [ref=e500]: "const reset = () => {"
+              - generic [ref=e502]: setCount(0);
+              - generic [ref=e504]: "};"
+              - generic [ref=e507]: return (
+              - generic [ref=e509]: <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
+              - generic [ref=e511]: <h2 className="text-2xl font-bold mb-4">Counter</h2>
+              - generic [ref=e513]: "<div className=\"text-4xl font-bold mb-6\">{count}</div>"
+              - generic [ref=e515]: <div className="flex gap-4">
+              - generic [ref=e517]: <button
+              - generic [ref=e519]: "onClick={decrement}"
+              - generic [ref=e521]: className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+              - generic [ref=e523]: ">"
+              - generic [ref=e525]: Decrease
+              - generic [ref=e527]: </button>
+              - generic [ref=e529]: <button
+              - generic [ref=e531]: "onClick={reset}"
+              - generic [ref=e533]: className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
+              - generic [ref=e535]: ">"
+              - generic [ref=e537]: Reset
+              - generic [ref=e539]: </button>
+              - generic [ref=e541]: <button
+              - generic [ref=e543]: "onClick={increment}"
+              - generic [ref=e545]: className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors"
+              - generic [ref=e547]: ">"
+              - generic [ref=e549]: Increase
+              - generic [ref=e551]: </button>
+              - generic [ref=e553]: </div>
+              - generic [ref=e555]: </div>
+              - generic [ref=e557]: );
+            - textbox "Editor content" [ref=e234]: "</div> </div> ); }; export default Counter;"
+  - alert [ref=e50]
+  - generic [ref=e235]:
+    - alert
+    - alert
