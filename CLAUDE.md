@@ -90,6 +90,16 @@ Default model is `claude-haiku-4-5` (defined in `src/lib/provider.ts`). Change `
 | `prisma/schema.prisma` | SQLite schema |
 | `src/generated/prisma` | Generated Prisma client (custom output location) |
 
+## CI / GitHub Actions Environment
+
+When running in GitHub Actions (triggered by @claude on an issue or PR):
+
+- The project is already set up with all dependencies installed.
+- The dev server is already running at localhost:3000.
+- Server logs are written to logs.txt.
+- The database can be queried with the `sqlite3` CLI if needed.
+- Use the `mcp__playwright` set of tools to launch a browser and interact with the running app at localhost:3000.
+
 ## API Authentication
 
 Endpoints under `/api/projects` and `/api/filesystem` require authentication (checked by middleware). Public endpoints (e.g. `/api/chat`) do not, allowing anonymous users to generate projects.
