@@ -46,7 +46,7 @@ jobs:
             Logs from it are being written to logs.txt. If needed, you can query the db with the 'sqlite3' cli. if needed, use the 
             mcp__playwright set of tools to launch a browser and interact with the app.
 
-          mc_config:
+          mcp_config:
             {
               "mcpServers": {
                 "playwright": {
@@ -60,7 +60,7 @@ jobs:
               }
             }
           
-          allowed_tools: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,..."
+          allowed_tools: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click"
 
           # This is an optional setting that allows Claude to read CI results on PRs
           additional_permissions: |
